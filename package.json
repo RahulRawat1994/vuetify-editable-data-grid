@@ -1,0 +1,58 @@
+{
+  "name": "vuetify-editable-data-grid",
+  "version": "1.0.0",
+  "type": "module",
+  "keywords": [
+    "vue",
+    "vuetify",
+    "data-grid",
+    "editable-data-grid",
+    "editable-grid",
+    "editable-table",
+    "editable",
+    "vue3",
+    "vue-plugin"
+  ],
+  "author": "Rahul Rawat <rr904196@gmail.com>",
+  "license": "MIT",
+  "main": "src/index.js",
+  "module": "src/index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "run-p type-check \"build-only {@}\" --",
+    "preview": "vite preview",
+    "build-only": "vite build",
+    "type-check": "vue-tsc --build --force",
+    "lint": "eslint . --fix",
+    "format": "prettier --write src/"
+  },
+  "devDependencies": {
+    "@tsconfig/node20": "^20.1.4",
+    "@types/node": "^20.16.11",
+    "@vitejs/plugin-vue": "^5.2.1",
+    "@vue/eslint-config-prettier": "^10.0.0",
+    "@vue/eslint-config-typescript": "^14.0.1",
+    "@vue/tsconfig": "^0.5.1",
+    "eslint": "^9.12.0",
+    "eslint-plugin-vue": "^9.29.0",
+    "npm-run-all2": "^6.2.3",
+    "prettier": "^3.3.3",
+    "typescript": "~5.5.4",
+    "vite": "^5.4.8",
+    "vue": "^3.5.13",
+    "vuetify": "^3.8.2",
+    "vue-tsc": "^2.1.10"
+  },
+  "peerDependencies": {
+    "vue": "^3.0.0",
+    "vuetify": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  },
+  "files": [
+    "dist/*",
+    "src/*"
+  ]
+}
