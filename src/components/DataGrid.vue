@@ -197,8 +197,8 @@
 
 <script setup>
 import { ref, computed, onMounted, onBeforeUnmount, watch, useTemplateRef } from 'vue'
-import { useRefHistory } from '@/composables/useRefHistory'
-import { formatNumber } from '@/utils/numberUtils'
+import { useRefHistory } from '../composables/useRefHistory'
+import { formatNumber } from '../utils/numberUtils'
 
 const { headers } = defineProps({
   headers: {

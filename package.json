@@ -1,6 +1,6 @@
 {
   "name": "vuetify-editable-data-grid",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "keywords": [
     "vue",
@@ -13,6 +13,13 @@
     "vue3",
     "vue-plugin"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RahulRawat1994/vuetify-editable-data-grid.git"
+  },
+  "bugs": {
+    "url": "https://github.com/RahulRawat1994/vuetify-editable-data-grid/issues"
+  },
   "author": "Rahul Rawat <rr904196@gmail.com>",
   "license": "MIT",
   "main": "src/index.js",
